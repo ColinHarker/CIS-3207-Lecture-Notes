@@ -27,3 +27,16 @@ How does OS create process?
 - Open basic files
   - STDIN, OUT, ERR
 - Initialize CPU registers
+
+CPU state of a process
+---
+![PSW.PNG](attachments/b258798d.PNG)
+
+#### Process Sceduling: A computer has one or more CPUs, which execute the instructions of programs. Modern OSs are preemptive mulitasking systems.
+- Multitasking means that multiple processes can simultaneously reside in memory and each uses the CPU(s)
+- Preemptive means that the rules governing whoch processes recieve use of the CPU and for how long are determined by the kernal process scheduler(rather than processes themselves)
+
+---
+![CPUprocessSceduler.PNG](attachments/0f1737a1.PNG)
+
+![ee015273.png](attachments/ee015273.png)
