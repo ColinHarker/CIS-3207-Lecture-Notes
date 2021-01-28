@@ -11,14 +11,14 @@ Sharing the CPU
 - CPU is idle during I/O phases
 - Multiprogramming
   - keep several programs active in memory and switches execution amoung them to optimise resources
-  ![multigraph.PNG](attachments/74553981-653f-49b1-97d9-97d8f10e57d6/14ba0784.PNG)
+  ![multigraph.PNG](attachments/14ba0784.PNG)
 
 CPU Virtualization
 ---
 - Timesharing (multitasking)
   - extension of multiprogramming
   - CPU switches amoung all active computations to guarantee acceptable performance
-  ![timeshare.PNG](attachments/74553981-653f-49b1-97d9-97d8f10e57d6/080633a6.PNG)
+  ![timeshare.PNG](attachments/080633a6.PNG)
 - Creating the illusion many CPUs exist
   - Virtual CPU = process
   - Timesharing
@@ -39,7 +39,7 @@ Process Control Block
 ---
 - OS maintains a data structure for each process that stores state info
   - everything needed to stop running process, store and retrieve it
-  ![pcb.PNG](attachments/74553981-653f-49b1-97d9-97d8f10e57d6/e1f31058.PNG)
+  ![pcb.PNG](attachments/e1f31058.PNG)
   
 Process creation
 ---
